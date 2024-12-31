@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Segmentation</title>
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Segmentation</h1>
+        <form action="/predict" method="POST" class="form-grid">
+            <div>
+                <label for="Marital_Status">Marital Status</label>
+                <select name="Marital_Status" id="Marital_Status" required>
+                    <option value="Single">Single</option>
+                    <option value="Married">Married</option>
+                    <option value="Divorced">Divorced</option>
+                </select>
+            </div>
+            <div><label>Mnt Wines</label><input type="number" name="MntWines" required></div>
+            <div><label>Mnt Fruits</label><input type="number" name="MntFruits" required></div>
+            <div><label>Mnt Meat Products</label><input type="number" name="MntMeatProducts" required></div>
+            <div><label>Mnt Fish Products</label><input type="number" name="MntFishProducts" required></div>
+            <div><label>Mnt Sweet Products</label><input type="number" name="MntSweetProducts" required></div>
+            <div><label>Mnt Gold Products</label><input type="number" name="MntGoldProds" required></div>
+            <div><label>Num Deals Purchases</label><input type="number" name="NumDealsPurchases" required></div>
+            <div><label>Num Store Purchases</label><input type="number" name="NumStorePurchases" required></div>
+            <div><label>Years Since Join</label><input type="number" name="Years_Since_Join" required></div>
+
+            <div><label>No. of Children</label><input type="number" name="No_of_Childrens" required></div>
+            <div><label>Is Parent</label>
+                <select name="is_parent" id="is_parent" required>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+            <div><label>Members in Family</label><input type="number" name="Memebers_In_Family" required></div>
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>
