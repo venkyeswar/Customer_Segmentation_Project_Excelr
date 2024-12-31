@@ -1,0 +1,69 @@
+# Customer Segmentation Project
+
+Welcome to the **Customer Segmentation Project**, an intensive group effort by six team members conducted during an internship at **AIVariant**. This project focuses primarily on exploratory data analysis (EDA), feature engineering, advanced machine learning models, and deep insights into customer behavior.
+
+## Live Website
+Access our live project here: [Customer Segmentation Live Website](https://customer-segmentation-project-j6f6.onrender.com)
+
+---
+
+## Project Overview
+The primary objective of this project was to analyze customer data, perform in-depth clustering and classification, and derive meaningful customer segments. Our emphasis was on conducting detailed analysis and developing robust machine learning models while ensuring accurate insights.
+
+### Key Features:
+- **Exploratory Data Analysis (EDA):**
+  - Comprehensive analysis of the dataset using visualizations and statistical methods.
+  - Uncovered patterns, trends, and anomalies within the data.
+
+- **Clustering Techniques:**
+  - Implemented **K-Means**, **DBSCAN**, and **Hierarchical Clustering** to group customers.
+  - Applied **PCA** and **t-SNE** for dimensionality reduction and effective visualization of clusters.
+
+- **Feature Engineering:**
+  - Transformed raw data into meaningful features for model building.
+  - Extensive preprocessing to handle missing values, outliers, and scaling of numerical data.
+
+- **Classification Models:**
+  - Built and compared multiple models, including:
+    - **Logistic Regression**
+    - **Decision Trees**
+    - **Ensemble Models** (e.g., Random Forest, Gradient Boosting)
+    - **Stacked Models**
+    - **K-Nearest Neighbors (KNN)**
+    - **Support Vector Machines (SVM)**
+    - **Artificial Neural Networks (ANN)**
+  - Selected the **Stacked Model** to leverage the strengths of multiple algorithms for enhanced performance.
+
+### Hard Work Highlights:
+- Extensive **visualization analysis** to understand customer behaviors.
+- Rigorous labeling of customers through iterative refinements.
+- Model comparison and selection based on accuracy, precision, and recall.
+
+---
+
+## Deployment
+While the focus was primarily on analysis and model building, the project also includes a functional deployment to showcase the results.
+- Deployed using **Flask** and hosted on **Render**.
+- Interactive web interface to predict customer segments based on inputs.
+
+---
+
+## Tools and Technologies Used
+- **Programming Languages:** Python
+- **Libraries:** pandas, NumPy, scikit-learn, matplotlib, seaborn, Flask
+- **Clustering Algorithms:** K-Means, DBSCAN, Hierarchical Clustering
+- **Dimensionality Reduction:** PCA, t-SNE
+- **Machine Learning Models:** Logistic Regression, Decision Trees, Random Forest, Gradient Boosting, Stacked Models, KNN, SVM, ANN
+- **Deployment:** Flask, Render
+
+---
+
+## Team Contribution
+This project was a collaborative effort by a group of six members, involving countless hours of hard work, brainstorming, and analysis. The teamwork ensured the successful completion of a comprehensive customer segmentation system.
+
+
+
+---
+
+Thank you for exploring our project! Feel free to check out the live website and share your feedback.
+
